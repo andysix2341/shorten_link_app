@@ -26,7 +26,6 @@ Just put the link inside of the box and the shorthen link generate that automati
 3. Configure environment variables (create .env file):
     ```bash
     DATABASE_URL="your_database_url"
-    PORT=YOUR_PORT(INTEGER)
 4. Run Prisma migrations:
     ```bash
     npx prisma migrate dev
