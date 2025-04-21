@@ -31,4 +31,4 @@ Just put the link inside of the box and the shorthen link generate that automati
     npx prisma migrate dev
 5. Start server:
     ```bash
-    npm run devStart
+    npm run start
