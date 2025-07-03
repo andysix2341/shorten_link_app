@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 5rem 0;
+    display: grid;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgb(0, 170, 255), rgb(133, 96, 243));
+
+}
+
+.input-link {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.input-link label {
+    background-color: burlywood;
+    padding: 1rem;
+    margin: -1px;
+}
+
+.input-link input, 
+.input-link button {
+    width: 10rem;
+}
+
+.input-link input {
+    border: 1px solid goldenrod;
+    background-color: transparent;
+    padding: 1rem;
+    min-width: 20%;
+    width: 50%;
+
+}
+
+form {
+    display: flex;
+}
+
+.input-link button {
+    margin: -1px;
+    border: 1px solid greenyellow;
+    background: none;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-container table th,
+.table-container table tr td {
+    padding: .5rem 5rem;
+    border: 1px solid red;
+    text-align: center;
+}

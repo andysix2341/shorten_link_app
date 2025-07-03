@@ -1,0 +1,15 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model link {
+  id            BigInt  @id
+  original_link String? @db.VarChar(500)
+  shorten_link  String? @db.VarChar(7)
+}
